@@ -17,13 +17,21 @@
     text-justify: auto;
     padding: 15px;
     font-size: medium;
+    
+}
+#currentWeather{
+    border: 5px black ;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: aliceblue;
 }
 #main1{
+    border-radius: 10px;
     color: white;
     text-align: center;
     align-items: center;
     background-color: black;
-    padding: 10px;
+    padding:7px;
 
 }
 #lblCurrentWeather{
@@ -34,29 +42,39 @@
     text-align: center;
     margin: 10px;
     padding: 10px;
+    width: 25%;
     border:2px solid black;
     display: inline-block;
     border-radius: 15px;
     background-color: aliceblue;
-    
-
 }
-
 #tblCurrentWeather,th,td{
     border: 1px solid black;
     width:100%;
     margin: auto;
-    
 }
-
 #tbl1{
+    /* width: 110px; */
+    /* height: 110px; */
     text-align: center;
     margin: 10px;
     padding: 10px;
-    border:2px solid hsl(0, 0%, 100%);
+    border:1px solid hsl(297, 100%, 48%);
     display: inline-block;
     border-radius: 15px;
     background-color:rgb(30, 30, 45);
-    color: rgb(255, 255, 255);
-    
+    color: rgb(255, 255, 255);   
+}
+#lastWeather{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border:3px solid rgb(51, 127, 17);
+    display: inline-block;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+#forecastWeather{
+    background: #000;
+    border-radius: 10px;
 }

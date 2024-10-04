@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- ---------------------current weather start------------------------------- -->
     <div id="currentWeather">
         <div id="searchBar" >
                     <input class="searchbox" id="txtLocation" type="text" placeholder="Enter Location">
@@ -26,54 +27,81 @@
             <div class="table">
                 <div id="tbl1">
                     <h2>Location</h2>
+                    <h1>⛩️</h1>
                     <label id="location" for="text"></label>
                 </div>
                 <div id="tbl1">
                     <h2>Temperature</h2>
+                    <h1>🌡️</h1>
                     <label id="temperature" for="text"></label>
                 </div>
                 <div id="tbl1">
                     <h2>Humidity</h2>
+                    <h1>🥶</h1>
                     <label id="humidity" for="text"></label>
                 </div>
                 <div id="tbl1">
                     <h2>Wind Speed</h2>
+                    <h1>❄️</h1>
                     <label id="windSpeed" for="text"></label>
                 </div>
                 <div id="tbl1">
                     <h2>Condition</h2>
+                    <h1>☁️</h1>
                     <label id="condition" for="text"></label>
                 </div>
                 <div id="tbl1">
                     <h2>Region</h2>
+                    <h1>🏴󠁢󠁹󠁭󠁩󠁿</h1>
                     <label id="region" for="text"></label>
                 </div>
                 <div id="tbl1">
                     <h2>Country</h2>
+                    <h1>🗾</h1>
                     <label id="country" for="text"></label>
                 </div>
             </div>
-        <!-- <table id="tblCurrentWeather">
-            <tr>
-                <th>Location</th>
-                <th>Temperature</th>
-                <th>Humidity</th>
-                <th>Wind Speed</th>
-                <th>Condition</th>
-                <th>Region</th>
-                <th>Country</th>
-            </tr>
-            <tr>
-                <td><label id="location" for="text"></label></td>
-                <td><label id="temperature" for="text"></label></td>
-                <td><label id="humidity" for="text"></label></td>
-                <td><label id="windSpeed" for="text"></label></td>
-                <td><label id="condition" for="text"></label></td>
-                <td><label id="region" for="text"></label></td>
-                <td><label id="country" for="text"></label></td>
-            </tr>
-        </table> -->
     </div>
+    <!-- ---------------------current weather End------------------------------- -->
+
+
+    <!-- ---------------------forecast weather start------------------------------- -->
+    <div id="forecastWeather">
+        <h1 id="main1">Weather Forecast 🐦‍🔥</h1>
+        <div>
+            <div id="lastWeather">
+                <label id="fDate1"for="text"></label>
+                <div id="imgFWeather1"></div>
+                <h1 id="txtFTemperature1"></h1>
+                <h1 id="txtFWeather1"></h1>
+            </div>
+            <div id="lastWeather">
+                <label id="fDate2"for="text"></label>
+                <div id="imgFWeather2"></div>
+                <h1 id="txtFTemperature2"></h1>
+                <h1 id="txtFWeather2"></h1>
+            </div>
+            <div id="lastWeather">
+                <label id="fDate3"for="text"></label>
+                <div id="imgFWeather3"></div>
+                <h1 id="txtFTemperature3"></h1>
+                <h1 id="txtFWeather3"></h1>
+            </div>
+            <div id="lastWeather">
+                <label id="fDate4"for="text"></label>
+                <div id="imgFWeather4"></div>
+                <h1 id="txtFTemperature4"></h1>
+                <h1 id="txtFWeather4"></h1>
+            </div>
+            <div id="lastWeather">
+                <label id="fDate5"for="text"></label>
+                <div id="imgFWeather5"></div>
+                <h1 id="txtFTemperature5"></h1>
+                <h1 id="txtFWeather5"></h1>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------forecast weather End------------------------------- -->
 
    
     <script src="app.js"></script>
