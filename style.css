@@ -1,0 +1,62 @@
+ body{
+    background-color: gray;
+    text-align: center;
+} 
+#searchBar{
+    text-align: center;
+    padding: 50px;
+}
+.searchbox{
+    padding: 15px;
+    width: 60%;
+    font-size: medium;
+
+}
+.btnsearch{
+    
+    text-justify: auto;
+    padding: 15px;
+    font-size: medium;
+}
+#main1{
+    color: white;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+
+}
+#lblCurrentWeather{
+    font-size: 45px;
+    font-weight: bold;
+}
+#newWeather{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border:2px solid black;
+    display: inline-block;
+    border-radius: 15px;
+    background-color: aliceblue;
+    
+
+}
+
+#tblCurrentWeather,th,td{
+    border: 1px solid black;
+    width:100%;
+    margin: auto;
+    
+}
+
+#tbl1{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border:2px solid hsl(0, 0%, 100%);
+    display: inline-block;
+    border-radius: 15px;
+    background-color:rgb(30, 30, 45);
+    color: rgb(255, 255, 255);
+    
+}
